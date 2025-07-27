@@ -35,7 +35,7 @@ module.exports.run = async function({
                         eventCommands.forEach((eventCommand, index) => {
                                 helpMessage += `╭─────────────────╮\n |\t『 ${index + 1}.』  ${prefix}${eventCommand}\n╰─────────────────╯ \n`;
                         });
-                        helpMessage += `Developed by: Glen Albert Hilario - Alonie 😍😍😍.`;
+                        helpMessage += `\n Developed by: Glen Albert Hilario \n 💜: Alonie 😍😍😍.`;
                         api.sendMessage(helpMessage, event.threadID, event.messageID);
                 } else if (!isNaN(input)) {
                         const page = parseInt(input);
